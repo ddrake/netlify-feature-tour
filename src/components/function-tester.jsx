@@ -62,7 +62,7 @@ run \`netlify dev\` in your CLI.`
       });
   }
 
-  return output === "hello world!" ? (
+  return output === "hello world! I have a super secret" ? (
     <ExerciseFinish />
   ) : (
     <ExerciseStart handleClick={handleClick} output={output}>
