@@ -11,5 +11,8 @@
   "devDependencies": {
     "@astrojs/preact": "^0.0.2",
     "astro": "^0.26.1"
+  },
+  "dependencies": {
+    "@astrojs/sitemap": "^0.1.0"
   }
 }

@@ -1,9 +1,10 @@
 import preact from '@astrojs/preact';
+import sitemap from '@astrojs/sitemap';
 export default {
-  buildOptions: {
-    sitemap: true,
+  build: {
   },
   integrations: [
     preact(),
+    sitemap(),
   ],
 };
